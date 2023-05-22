@@ -1,0 +1,4 @@
+composer create-project laravel/laravel crud
+php artisan make:controller mahasiswaController --resource
+php artisan make:model mahasiswa -m
+php artisan migrate
